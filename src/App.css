@@ -1,0 +1,66 @@
+.background-section {
+    background-image: url('../src/assets/wall.jpg'); /* Add your image path */
+    background-size: contain; /* Ensure the image fits without being cut, might show some background on sides/top/bottom */
+    background-position: center center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not tile the background image */
+    min-height: 100vh; /* Adjust based on your needs to ensure image can fit */
+  }
+  
+  .text-background {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    padding: 1rem; /* Add some padding */
+    border-radius: 8px; /* Optional: round the corners */
+  }
+  
+  .text-shadow {
+    text-shadow: 2px 2px 8px #000; /* Black shadow to make text more readable */
+  }
+  
+  /* Smaller screens (e.g., mobile devices) */
+@media (max-width: 768px) {
+    .background-section {
+      background-size: cover; /* Cover the area on smaller screens */
+      min-height: 50vh; /* Adjust based on your design needs */
+    }
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Creates a responsive grid */
+    gap: 40px; /* Spacing between grid items */
+    padding: 30px; /* Padding around the entire grid */
+  }
+  
+  .cadii {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.5rem;
+    cursor: pointer;
+    background: #fff; /* Optional: adds background to cards */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optional: adds shadow for depth */
+    border-radius: 8px; /* Optional: rounds corners of the cards */
+  }
+  
+  .imagee {
+    height: 385px;
+    width: 100%; /* Makes image fill the card width */
+    object-fit: cover; /* Adjusts the image size to cover the area without losing aspect ratio */
+  }
+  
+  .view {
+    width: calc(100% - 20px); /* Adjust width to fit inside the padding */
+    margin-top: 20px; /* Adds space above the button */
+    background-color: mediumseagreen;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 13px;
+    cursor: pointer;
+  }
+  
+  .view:hover {
+    background-color: darkgreen;
+  }
+  

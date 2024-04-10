@@ -2,7 +2,6 @@ import React from 'react';
 import {
   FaDribbbleSquare,
   FaFacebookSquare,
-  FaGithubSquare,
   FaInstagram,
   FaTwitterSquare,
 } from 'react-icons/fa';
@@ -13,12 +12,11 @@ const Footer = () => {
       <div>
         <h1 className='w-full text-3xl font-bold text-[#00df9a]'>Real Estate</h1>
         <p className='py-4'>Ready to embark on the easiest home-search experience? Reach out now and let Real Estate redefine your journey to a place you'll love to call home.</p>
-        <div className='flex justify-between md:w-[75%] my-6'>
-            <FaFacebookSquare size={30} />
-            <FaInstagram size={30} />
-            <FaTwitterSquare size={30} />
-            <FaGithubSquare size={30} />
-            <FaDribbbleSquare size={30} />
+        <div className='flex justify-between md:w-[75%] my-6 cursor-pointer'>
+        <a href="http://www.facebook.com" > <FaFacebookSquare size={30} /> </a>
+        <a href="http://www.instagram.com" > <FaInstagram size={30} /> </a>
+        <a href="http://www.twitter.com" > <FaTwitterSquare size={30} /> </a>
+        <a href="http://www.dribble.com" ><FaDribbbleSquare size={30} /> </a>
         </div>
       </div>
       <div className='lg:col-span-2 flex justify-between mt-6'>
