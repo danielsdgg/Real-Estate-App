@@ -3,6 +3,7 @@ import Navbar from './Navbar';
 import Footer from './Footer';
 import { ReactTyped } from "react-typed";
 import House from '../assets/home.jpeg'
+import { Link } from 'react-router-dom';
 
 
 const Home = () => {
@@ -31,7 +32,7 @@ const Home = () => {
     <div className='text-background'>
         <p className='md:text-2xl text-xl font-bold text-gray-500 text-shadow'>Take a look at the variety of properties we have for you.</p>
     </div>
-    <button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black'>Get Started</button>
+    <Link to={'/properties'}><button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black'>Get Started</button></Link>
   </div>
 </div>
   {/* second section */}

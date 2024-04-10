@@ -15,9 +15,8 @@ const Navbar = () => {
       <ul className='hidden md:flex cursor-pointer'>
         <Link to={'/'}><li className='p-4'>Home</li></Link>
         <Link to={'/properties'}><li className='p-4'>Properties</li></Link>
-        <li className='p-4'>Resources</li>
-        <li className='p-4'>About</li>
-        <li className='p-4'>Contact</li>
+        <Link to={'/about'}><li className='p-4'>About</li></Link>
+        <Link to={'/contact'}><li className='p-4'>Contact</li></Link>
       </ul>
       <div onClick={handleNav} className='block md:hidden'>
           {nav ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20} />}
@@ -26,9 +25,8 @@ const Navbar = () => {
         <Link to={'/'}><h1 className='w-full text-3xl font-bold text-[#00df9a] m-4'>Real-Estate</h1></Link>
         <Link to={'/'}><li className='p-4 border-b border-gray-600'>Home</li></Link>
         <Link to={'/properties'}><li className='p-4 border-b border-gray-600'>Properties</li></Link>
-        <li className='p-4 border-b border-gray-600'>Resources</li>
-        <li className='p-4 border-b border-gray-600'>About</li>
-        <li className='p-4'>Contact</li>
+        <Link to={'/about'}><li className='p-4 border-b border-gray-600'>About</li></Link>
+        <Link to={'/contact'}><li className='p-4'>Contact</li></Link>
       </ul>
     </div>
   );
