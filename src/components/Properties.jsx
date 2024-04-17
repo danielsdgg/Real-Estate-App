@@ -12,7 +12,7 @@ const Properties = () => {
   return (
     <>
     <Navbar />
-    <h3 className='bg-gray-700 text-center text-white font-bold md:text-4xl sm:text-3xl underline pt-3 pb-2'>Properties</h3>
+    <h3 className='bg-gray-700 text-center text-white font-bold md:text-4xl sm:text-3xl pt-3 pb-2'>Properties</h3>
 
     {/* first property */}
     <div className="grid-container bg-gray-700">

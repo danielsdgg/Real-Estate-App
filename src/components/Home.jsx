@@ -20,7 +20,7 @@ const Home = () => {
       </div>
       <div className='flex justify-center items-center text-background'>
           <p className='md:text-4xl sm:text-3xl text-xl font-bold py-4 text-shadow'>
-              flexible financial plans for
+              FLEXIBLE FINANCIAL PLANS FOR
           </p>
           <ReactTyped className='text-green-400 md:text-4xl sm:text-3xl text-xl font-bold md:pl-4 pl-2 text-shadow'
           strings={['HOMES', 'LAND', 'SPACES']}
@@ -30,7 +30,7 @@ const Home = () => {
           />
       </div>
     <div className='text-background'>
-        <p className='md:text-2xl text-xl font-bold text-gray-500 text-shadow'>Take a look at the variety of properties we have for you.</p>
+        <p className='md:text-2xl text-xl font-bold text-gray-500 text-shadow'>TAKE A LOOK AT THE VARIETY OF PROPERTIES WE HAVE FOR YOU.</p>
     </div>
     <Link to={'/properties'}><button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black'>Get Started</button></Link>
   </div>
